@@ -22,7 +22,7 @@ These will work just like when used anywhere else.
 getrandom = { git = "https://github.com/skyline-rs/getrandom" }
 ```
 
-* [rayon]((https://docs.rs/rayon) - Makes parallelism as easy as using a iterator
+* [rayon](https://docs.rs/rayon) - Makes parallelism as easy as using a iterator
 
 ```
 [patches.crates-io]
