@@ -47,5 +47,5 @@ getrandom = { git = "https://github.com/skyline-rs/getrandom" }
 
 ```
 [patch.crates-io]
-ring = { git = "https://github.com/skyline-rs/ring" }
+ring = { git = "https://github.com/skyline-rs/ring", rev = "d9674965" }
 ```
