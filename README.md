@@ -18,14 +18,14 @@ These will work just like when used anywhere else.
 * [rand](https://docs.rs/rand) - Generates random numbers. Requires a patch for `getrandom`
 
 ```
-[patches.crates-io]
+[patch.crates-io]
 getrandom = { git = "https://github.com/skyline-rs/getrandom" }
 ```
 
 * [rayon](https://docs.rs/rayon) - Makes parallelism as easy as using a iterator
 
 ```
-[patches.crates-io]
+[patch.crates-io]
 num_cpus = { git = "https://github.com/skyline-rs/num_cpus" }
 ```
 
@@ -39,13 +39,13 @@ num_cpus = { git = "https://github.com/skyline-rs/num_cpus" }
 * [getrandom](https://github.com/skyline-rs/getrandom) - OS-specific random number generator. Depended on by `rand`.
 
 ```
-[patches.crates-io]
+[patch.crates-io]
 getrandom = { git = "https://github.com/skyline-rs/getrandom" }
 ```
 
 * [ring](https://github.com/skyline-rs/ring) - Cryptography primatives
 
 ```
-[patches.crates-io]
+[patch.crates-io]
 ring = { git = "https://github.com/skyline-rs/ring" }
 ```
