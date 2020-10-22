@@ -18,6 +18,9 @@ These will work just like when used anywhere else.
 * [rand](https://docs.rs/rand) - Generates random numbers. Requires a patch for `getrandom`
 
 ```
+[dependencies]
+rand = { git = "https://github.com/skyline-rs/rand" }
+
 [patch.crates-io]
 getrandom = { git = "https://github.com/skyline-rs/getrandom" }
 ```
