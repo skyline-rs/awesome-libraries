@@ -52,3 +52,10 @@ getrandom = { git = "https://github.com/skyline-rs/getrandom" }
 [patch.crates-io]
 ring = { git = "https://github.com/skyline-rs/ring", rev = "d9674965" }
 ```
+
+* [thread-id](https://github.com/skyline-rs/thread-id) - Getting a unique number for the current thread
+
+```
+[patch.crates-io]
+thread-id = { git = "https://github.com/skyline-rs/thread-id" }
+```
