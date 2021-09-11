@@ -43,14 +43,14 @@ num_cpus = { git = "https://github.com/skyline-rs/num_cpus" }
 
 ```
 [patch.crates-io]
-ring = { git = "https://github.com/skyline-rs/ring", branch = "0.16.20" }
+ring = { git = "https://github.com/skyline-rs/getrandom" }
 ```
 
 * [ring](https://github.com/skyline-rs/ring) - Cryptography primatives
 
 ```
 [patch.crates-io]
-ring = { git = "https://github.com/skyline-rs/ring", rev = "d9674965" }
+ring = { git = "https://github.com/skyline-rs/ring", branch = "0.16.20" }
 ```
 
 * [thread-id](https://github.com/skyline-rs/thread-id) - Getting a unique number for the current thread
