@@ -43,7 +43,7 @@ num_cpus = { git = "https://github.com/skyline-rs/num_cpus" }
 
 ```
 [patch.crates-io]
-getrandom = { git = "https://github.com/skyline-rs/getrandom" }
+ring = { git = "https://github.com/skyline-rs/ring", branch = "0.16.20" }
 ```
 
 * [ring](https://github.com/skyline-rs/ring) - Cryptography primatives
