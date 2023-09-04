@@ -32,7 +32,7 @@ getrandom = { git = "https://github.com/skyline-rs/getrandom" }
 num_cpus = { git = "https://github.com/skyline-rs/num_cpus" }
 ```
 
-* [minreq](https://docs.rs/minreq) - Establish (blocking) web requests
+* [minreq](https://docs.rs/minreq) - Perform (blocking) web requests
 
 ```toml
 [dependencies]
